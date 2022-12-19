@@ -5,7 +5,7 @@ December 19, 2022
 Post Your Work on GitHub
 
 ### Description
-Describe what your project is about and what it does
+In this project, I'll be simulating a realistic workflow to refactor my previous BikeShare project using GIT.
 
 ### Files used
 Include the files used
