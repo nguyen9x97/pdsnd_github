@@ -8,7 +8,9 @@ Post Your Work on GitHub
 In this project, I'll be simulating a realistic workflow to refactor my previous BikeShare project using GIT.
 
 ### Files used
-Include the files used
+- `bikeshare.py`
+- `README.md`
+- `.gitignore`
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
