@@ -13,5 +13,5 @@ In this project, I'll be simulating a realistic workflow to refactor my previous
 - `.gitignore`
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+GIT is awsome, visit [HERE](https://git-scm.com/doc) for more documentation.
 
