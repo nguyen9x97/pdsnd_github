@@ -192,16 +192,21 @@ def validate_yes_no_input(user_input: str):
     
     return user_input
 
+
+def display_all_stats(df):
+    """Displays all statistics."""
+    time_stats(df)
+    station_stats(df)
+    trip_duration_stats(df)
+    user_stats(df)
+
     
 def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
-        time_stats(df)
-        station_stats(df)
-        trip_duration_stats(df)
-        user_stats(df)
+        display_all_stats(df)
         
         # Display raw data
         is_display = input("Would you like to see 5 lines of raw data?\n")
