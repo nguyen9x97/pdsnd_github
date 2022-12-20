@@ -203,9 +203,11 @@ def display_all_stats(df):
     
 def main():
     while True:
+        # Load city data
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
+        # Display all statistics
         display_all_stats(df)
         
         # Display raw data
